@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/proreact/static/css/main.eff990c7.css",
-    "main.js": "/proreact/static/js/main.0d934555.js",
-    "static/media/code.jpg": "/proreact/static/media/code.1395aa269ed1955e0625.jpg",
-    "static/media/pexels-pixabay-270404.jpg": "/proreact/static/media/pexels-pixabay-270404.490d2f3ec948f85713ca.jpg",
-    "static/media/pexels-hitesh-choudhary-879109.jpg": "/proreact/static/media/pexels-hitesh-choudhary-879109.685ea470b686b87f6b90.jpg",
-    "static/media/pexels-kevin-ku-577585.jpg": "/proreact/static/media/pexels-kevin-ku-577585.1b336ad8668953c0a113.jpg",
-    "static/media/php.webp": "/proreact/static/media/php.c7c521b8bc2894f26da1.webp",
-    "static/media/html-css.png": "/proreact/static/media/html-css.deea8545beb66ea7d379.png",
-    "static/media/JavaScript.png": "/proreact/static/media/JavaScript.1306d05e5ee275c5880b.png",
-    "index.html": "/proreact/index.html",
-    "main.eff990c7.css.map": "/proreact/static/css/main.eff990c7.css.map",
-    "main.0d934555.js.map": "/proreact/static/js/main.0d934555.js.map"
+    "main.css": "/Proreact/static/css/main.eff990c7.css",
+    "main.js": "/Proreact/static/js/main.c48fe70f.js",
+    "static/media/code.jpg": "/Proreact/static/media/code.1395aa269ed1955e0625.jpg",
+    "static/media/pexels-pixabay-270404.jpg": "/Proreact/static/media/pexels-pixabay-270404.490d2f3ec948f85713ca.jpg",
+    "static/media/pexels-hitesh-choudhary-879109.jpg": "/Proreact/static/media/pexels-hitesh-choudhary-879109.685ea470b686b87f6b90.jpg",
+    "static/media/pexels-kevin-ku-577585.jpg": "/Proreact/static/media/pexels-kevin-ku-577585.1b336ad8668953c0a113.jpg",
+    "static/media/php.webp": "/Proreact/static/media/php.c7c521b8bc2894f26da1.webp",
+    "static/media/html-css.png": "/Proreact/static/media/html-css.deea8545beb66ea7d379.png",
+    "static/media/JavaScript.png": "/Proreact/static/media/JavaScript.1306d05e5ee275c5880b.png",
+    "index.html": "/Proreact/index.html",
+    "main.eff990c7.css.map": "/Proreact/static/css/main.eff990c7.css.map",
+    "main.c48fe70f.js.map": "/Proreact/static/js/main.c48fe70f.js.map"
   },
   "entrypoints": [
     "static/css/main.eff990c7.css",
-    "static/js/main.0d934555.js"
+    "static/js/main.c48fe70f.js"
   ]
 }
