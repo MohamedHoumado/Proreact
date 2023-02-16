@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../Menu.js';
+import Menu from '../Menu';
 import images from "../images/code.jpg"
 
 function Accueil(props) {
