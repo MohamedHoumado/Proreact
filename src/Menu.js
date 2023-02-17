@@ -8,7 +8,7 @@ function Menu(props){
            <NavLink to="">
             <li className='Logo'>Logo</li>
             </NavLink>
-            <NavLink to="/">
+            <NavLink to="/proreact">
             <li>Accueil</li>
             </NavLink>
             <NavLink to="/Apropos">

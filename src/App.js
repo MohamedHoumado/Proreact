@@ -13,7 +13,7 @@ function App() {
    
     <BrowserRouter>
      <Routes>
-      <Route path='/' element={<Accueil/>}/>
+      <Route path='/proreact' element={<Accueil/>}/>
       <Route path='/Apropos' element={<Apropos/>}/>
       <Route path='/Galerie' element={<Galerie/>}/>
       <Route path='/Services' element={<Services/>}/>
