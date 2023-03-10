@@ -1,21 +1,13 @@
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
- 
-} 
-body{
-  margin: 0;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
 }
 
 h1,h5{
   text-align: center;
 } 
 
-ul{
+.Menu ul{
   list-style: none;
   padding: 0;
   margin: 0;
@@ -25,31 +17,76 @@ ul{
 }
 
 a{
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 li{
   color: white;
   margin: 50px;
-  padding:0 60px 0 0;
-  
-  
-
 }
-.Menu ul {
-  display: flex;
-  height: 100px;
 
- 
-  
-}
 .Logo{
   display: flex;
   margin: 0;
   align-items: center;
-  
 }
+
+ img{
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 200px;
+}
+
+
+/* css pour le formulaire login et register */
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg,#7439db,#c66fbc 48%,#f7944d);
+
+}
+.auth-form-container, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width 600px){
+  .auth-form-container{
+    padding: 5rem;
+    border: 1px solid white;
+    margin: 0.5rem;
+  }
+  label{
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  button{
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7439db;
+  }
+  .link-btn{
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+
+
+
 
 
 
