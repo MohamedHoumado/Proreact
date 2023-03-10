@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/Proreact/static/css/main.eff990c7.css",
-    "main.js": "/Proreact/static/js/main.c636eb2c.js",
+    "main.css": "/Proreact/static/css/main.86f6ca37.css",
+    "main.js": "/Proreact/static/js/main.453337f9.js",
     "static/media/code.jpg": "/Proreact/static/media/code.1395aa269ed1955e0625.jpg",
     "static/media/pexels-pixabay-270404.jpg": "/Proreact/static/media/pexels-pixabay-270404.490d2f3ec948f85713ca.jpg",
     "static/media/pexels-hitesh-choudhary-879109.jpg": "/Proreact/static/media/pexels-hitesh-choudhary-879109.685ea470b686b87f6b90.jpg",
     "static/media/pexels-kevin-ku-577585.jpg": "/Proreact/static/media/pexels-kevin-ku-577585.1b336ad8668953c0a113.jpg",
+    "static/media/Sneaker.webp": "/Proreact/static/media/Sneaker.16203181927627facf6c.webp",
+    "static/media/DeltaBlack.webp": "/Proreact/static/media/DeltaBlack.983837e7466f36b5ec3a.webp",
+    "static/media/Aire.webp": "/Proreact/static/media/Aire.8344c281676227d9d5e0.webp",
     "static/media/php.webp": "/Proreact/static/media/php.c7c521b8bc2894f26da1.webp",
     "static/media/html-css.png": "/Proreact/static/media/html-css.deea8545beb66ea7d379.png",
+    "static/media/Nike.webp": "/Proreact/static/media/Nike.cd73c8768de887c88632.webp",
     "static/media/JavaScript.png": "/Proreact/static/media/JavaScript.1306d05e5ee275c5880b.png",
+    "static/media/Adidas.webp": "/Proreact/static/media/Adidas.d6018752d826087fe39d.webp",
+    "static/media/revicons.eot": "/Proreact/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Proreact/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Proreact/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Proreact/index.html",
-    "main.eff990c7.css.map": "/Proreact/static/css/main.eff990c7.css.map",
-    "main.c636eb2c.js.map": "/Proreact/static/js/main.c636eb2c.js.map"
+    "main.86f6ca37.css.map": "/Proreact/static/css/main.86f6ca37.css.map",
+    "main.453337f9.js.map": "/Proreact/static/js/main.453337f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.eff990c7.css",
-    "static/js/main.c636eb2c.js"
+    "static/css/main.86f6ca37.css",
+    "static/js/main.453337f9.js"
   ]
 }
