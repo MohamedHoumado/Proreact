@@ -4,10 +4,28 @@ import Menu from '../Menu';
 import images from "../images/JavaScript.png";
 import images1 from "../images/php.webp";
 import images2 from "../images/html-css.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import "../App.css";
+import{
+  DndContext,
+  closestCenter
+} from "@dnd-kit/core";
+import{
+  arrayMove,
+  SortableContext,
+  verticalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import {useState} from "react";
+import SortableItem from "../SortableItem";
 function Formation() {
+  const [languages, setLanguages]=useState(["Javascript","Python","TypeScript"]);
   return (
+    <>
     <div>
+      
       <Menu />
+      
       <h1 align="center">Nos Formations</h1>
       <div class="card-group" id="imagesJavascript">
         <div class="card" >
@@ -59,9 +77,43 @@ function Formation() {
           </div>
         </div>
       </div>
+      
+      
+    
 
     </div>
+   
+    <div>
+    <DndContext
+      collisionDetection={closestCenter}
+      onDragEnd={handleDragEnd}
+      >
+        <Container id ="p-3">
+          <h3>Les langages de programmations</h3>
+          <SortableContext items={languages}
+          strategy={verticalListSortingStrategy}
+          >
+            {languages.map(language => <SortableItem key={language} id={language}/>)}
+          </SortableContext>
+          </Container>
+    </DndContext>
+    </div>
+    </>
   );
+  function handleDragEnd(event){
+    console.log("Drag and colled");
+    const {active,over}=event;
+    console.log("ACTIVE: " + active.id);
+    console.log("OVER: " + over.id);
+    if(active.id !== over.id){
+      setLanguages((items)=>{
+        const activeIndex=items.indexOf(active.id);
+        const overIndex=items.indexOf(over.id);
+        console.log(arrayMove(items, activeIndex, overIndex));
+        return arrayMove(items, activeIndex, overIndex);
+      })
+    }
+  }
 }
 
 export default Formation;
