@@ -4,6 +4,7 @@
   font-family: "Hoboto", sans-serif;
 }
 
+
 h1,h5, h2{
   text-align: center;
   
@@ -17,7 +18,8 @@ h1,h5, h2{
   width: 100%;
   background-color: #000;
   display: flex;
-  align-items: center; 
+  align-items: center;
+  
 }
 
 a{
@@ -27,7 +29,6 @@ a{
 li{
   color: white;
   margin: 40px;
-  
 }
 
 .Logo{
@@ -94,11 +95,12 @@ li{
 
 
 .container{
-  top:50%;
+  top:60%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 100px;
+  margin: 0 auto;
+  width: 300px;
   text-align: center;
   border: 10px solid #101116;
   background-color: #101116;
@@ -117,7 +119,7 @@ border: 0px;
 color: #fff;
 text-align: right;
 font-size: 25px;
-font-weight: 500px;
+font-weight: 500;
 letter-spacing: 1px;
 }
 #clear{
@@ -152,7 +154,6 @@ button:active{
 .highlight{
   background-color: #56cbdb;
 }
-
 
 
 
