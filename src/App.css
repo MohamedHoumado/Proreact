@@ -13,24 +13,16 @@ h1,h5, h2{
 
 .Menu ul{
   list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
   background-color: #000;
   display: flex;
-  align-items: center;
-  
-}
-
-a{
-  text-decoration: none; 
+  align-items: center; 
 }
 
 li{
   color: white;
   margin: 40px;
+  
 }
-
 .Logo{
   display: flex;
   margin: 0;
@@ -68,6 +60,7 @@ li{
   label{
     text-align: left;
     padding: 0.25rem 0;
+    
   }
   input{
     margin: 0.5rem 0;
@@ -92,8 +85,12 @@ li{
 
 /* CSS pour l'onglet Calculatice */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-
-
+*{
+  margin:0;
+  padding: 0;
+  font-family: "Hoboto", sans-serif;
+  font-size: 18px;
+}
 .container{
   top:60%;
   left: 50%;
@@ -154,9 +151,3 @@ button:active{
 .highlight{
   background-color: #56cbdb;
 }
-
-
-
-
-
-
