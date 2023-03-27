@@ -4,14 +4,17 @@
   font-family: "Hoboto", sans-serif;
 }
 
-h1,h5{
+h1,h5, h2{
   text-align: center;
+  
+  
 } 
 
 .Menu ul{
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 100%;
   background-color: #000;
   display: flex;
   align-items: center; 
@@ -23,7 +26,8 @@ a{
 
 li{
   color: white;
-  margin: 50px;
+  margin: 40px;
+  
 }
 
 .Logo{
@@ -94,7 +98,7 @@ li{
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 100px;
   text-align: center;
   border: 10px solid #101116;
   background-color: #101116;
@@ -113,7 +117,7 @@ border: 0px;
 color: #fff;
 text-align: right;
 font-size: 25px;
-font-weight: 500;
+font-weight: 500px;
 letter-spacing: 1px;
 }
 #clear{
@@ -149,9 +153,7 @@ button:active{
   background-color: #56cbdb;
 }
 
-.p-3{
-  background-color: #7439db;
-}
+
 
 
 
