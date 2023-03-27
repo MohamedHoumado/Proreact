@@ -4,7 +4,7 @@ import Menu from "../Menu";
 
 function Calculatrice(props) {
     const[result, setResult]=useState("");
-  const handleClick = (e) =>{
+  function handleClick(e) {
     setResult(result.concat(e.target.name));
   }
   const clear = () =>{
