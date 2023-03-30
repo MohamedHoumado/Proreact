@@ -10,7 +10,7 @@ const Register = (props) => {
         console.log(email);
     }
     return (
-        <div class="App">
+        <div class="Inscriptions">
         <div className="auth-form-container">
             <h2>Register</h2>
             <form className="register-form"onSubmit={handleSubmit}>

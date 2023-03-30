@@ -9,7 +9,7 @@ const Login = (props) => {
         console.log(email);
     }
     return (
-        <div class="App">
+        <div class="Inscriptions">
         <div className="auth-form-container">
             <h2>Login</h2>
             <form className="login-form"onSubmit={handleSubmit}>
