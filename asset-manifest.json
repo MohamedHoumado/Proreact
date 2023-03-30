@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Proreact/static/css/main.aeb8b2fb.css",
-    "main.js": "/Proreact/static/js/main.82db883a.js",
+    "main.css": "/Proreact/static/css/main.f1921d29.css",
+    "main.js": "/Proreact/static/js/main.ad737074.js",
     "static/media/code.jpg": "/Proreact/static/media/code.1395aa269ed1955e0625.jpg",
     "static/media/pexels-pixabay-270404.jpg": "/Proreact/static/media/pexels-pixabay-270404.490d2f3ec948f85713ca.jpg",
     "static/media/pexels-hitesh-choudhary-879109.jpg": "/Proreact/static/media/pexels-hitesh-choudhary-879109.685ea470b686b87f6b90.jpg",
@@ -18,11 +18,11 @@
     "static/media/revicons.ttf": "/Proreact/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Proreact/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Proreact/index.html",
-    "main.aeb8b2fb.css.map": "/Proreact/static/css/main.aeb8b2fb.css.map",
-    "main.82db883a.js.map": "/Proreact/static/js/main.82db883a.js.map"
+    "main.f1921d29.css.map": "/Proreact/static/css/main.f1921d29.css.map",
+    "main.ad737074.js.map": "/Proreact/static/js/main.ad737074.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeb8b2fb.css",
-    "static/js/main.82db883a.js"
+    "static/css/main.f1921d29.css",
+    "static/js/main.ad737074.js"
   ]
 }
