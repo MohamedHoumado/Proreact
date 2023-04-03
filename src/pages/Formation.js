@@ -20,6 +20,7 @@ import {useState} from "react";
 import SortableItem from "../SortableItem";
 function Formation() {
   const [languages, setLanguages]=useState(["Javascript","Python","TypeScript"]);
+  
   return (
     <>
     <div>

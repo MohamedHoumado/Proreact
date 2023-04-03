@@ -1,20 +1,54 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Calendar from 'react-calendar';
 import Menu from '../Menu';
 
-const Services = () => {
-    return (
-        <div>
-            <Menu/>
-            <h1>Nos services</h1>
-            <p>
-            Choisir proreact, c’est choisir un service complet et rapide qui vous garantit le bon fonctionnement au quotidien de vos plateformes numériques ainsi que la sécurité de ceux-ci. Avec professionnalisme, proreact vous propose des solutions en informatique et en téléphonie VOIP aussi bien pour les professionnels, PME, professions libérales.
-Nous vous apportons la garantie d’un service disponible et personnalisé afin de gérer de la meilleure façon votre matériel informatique et son évolution.
-Nous vous proposons notre support et nos conseils professionnels lors de l’acquisition de votre matériel, son installation, sa maintenance et votre formation.
-
-proreact intervient rapidement dans l’ensemble de la région Bruxelles-Capitale ainsi que dans le Brabant Wallon et le Brabant Flamand.
-            </p>
-        </div>
+class Services extends Component{
+    state={
+        date:new Date(),
+        showDate:false
+    }
+    onChange=date =>{
+        this.setState({
+            date
+        })
+    }
+    validation = () =>{
+        this.setState({
+            showDate:true
+        })
+        console.log(this.state.date);
+    }
+    reset = () =>{
+        this.setState({
+            showDate:false
+        })
+    }
+    render(){
+        return (
+            <>
+      <Menu/>
+            <h3>Nos services</h3>
+      
+        <div className="calendrier"style={{boxShadow:"5px 5px 25px"}}>
+                <div onClick={this.reset}>
+                <Calendar
+                onChange={this.onChange}
+                selectRange={true}
+                value={this.state.date}
+                />
+                </div>
+                {/* <p>Date choisie:{this.state.date.toLocaleDateString()}</p> */}
+                <button onClick={this.validation}>Valider</button>
+                {this.state.showDate ? (
+                    <div>
+                        <p>Du : {this.state.date[0].toLocaleDateString()}</p>
+                        <p>Au : {this.state.date[1].toLocaleDateString()}</p>
+                    </div>
+                ):null}
+            </div>
+        </>
     );
+    }
 };
 
 export default Services;

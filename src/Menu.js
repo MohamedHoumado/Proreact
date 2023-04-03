@@ -5,7 +5,7 @@ import "./App.css";
 
 function Menu(props){
     return (
-        <div class='Menu'>
+        <div className='Menu'>
            <ul >
            <NavLink to="">
             <li className='Logo'>Logo</li>
